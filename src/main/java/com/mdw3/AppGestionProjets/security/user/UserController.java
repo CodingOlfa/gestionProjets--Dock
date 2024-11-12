@@ -1,19 +1,11 @@
 package com.mdw3.AppGestionProjets.security.user;
-
-<<<<<<< HEAD
 import com.mdw3.AppGestionProjets.entities.UserProfile;
-=======
->>>>>>> 40defba (second commit)
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.Authentication;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.web.bind.annotation.*;
-
-<<<<<<< HEAD
 import java.util.Map;
 
-=======
->>>>>>> 40defba (second commit)
 @RestController
 @RequestMapping("/users")
 public class UserController {
